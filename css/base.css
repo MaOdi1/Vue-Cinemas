@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  line-height: none;
+}
+:root {
+  --bg: #040D1F;
+  --white: #fff;
+  --or: #ED8E00;
+  --lightor: #F18128;
+  --black: #000;
+  --CR: "CR", sans-serif;
+  --CR: "CB", sans-serif;
+  --CR: "MB", sans-serif;
+  --CR: "MR", sans-serif;
+  --CR: "RM", sans-serif;
+  --CR: "RR", sans-serif;
+}
+body {
+  color: var(--white);
+  background: var(--bg);
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
