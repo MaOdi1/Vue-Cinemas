@@ -6,10 +6,10 @@
   list-style: none;
 }
 :root {
-  --bg: #040D1F;
+  --bg: #040d1f;
   --white: #fff;
-  --or: #ED8E00;
-  --lightor: #F18128;
+  --or: #ed8e00;
+  --lightor: #f18128;
   --black: #000;
   --CR: "CR", sans-serif;
   --CB: "CB", sans-serif;
@@ -28,4 +28,21 @@ body {
   height: 100%;
   margin: 0 auto;
   padding: 0 15px;
+}
+.btn {
+  outline: none;
+  border: none;
+  width: 166px;
+  height: 46px;
+  background: var(--lightor);
+  color: var(--black);
+  font-family: var(--RM);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 12px;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: var(--bg);
+  color: var(--white);
 }
